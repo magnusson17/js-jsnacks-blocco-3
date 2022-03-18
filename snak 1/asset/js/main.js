@@ -9,7 +9,9 @@ while (sum < 50) {
         alert("ERRORE");
     } else {
         sum += ask;
-        list.push(ask);
+        if (sum < 50) {
+            list.push(ask);
+        }
     }
 }
 container.innerHTML = `<div>gli elementi del'array sono: ${list}</div><div>la loro somma è: ${sum}</div>`;
