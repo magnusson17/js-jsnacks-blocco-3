@@ -14,4 +14,4 @@ while (sum < 50) {
         }
     }
 }
-container.innerHTML = `<div>gli elementi del'array sono: ${list}</div><div>la loro somma è: ${sum}</div>`;
+container.innerHTML = `<div>gli elementi del'array sono: ${list}</div><div>la somma di tutti i numeri inseriti è: ${sum}</div>`;
