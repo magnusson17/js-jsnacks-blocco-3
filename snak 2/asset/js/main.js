@@ -15,17 +15,17 @@ let ask = parseInt(prompt("inserisci un numero"));
 // for (let k = 0; k < 10; k++) {
     
 // }
-
+let newArray;
 let i = 0;
 while (i < ask) {
 
-    let newArray = [];
+    newArray = [];
     for (k = 0; k < 10; k++) {
         newArray.push(Math.floor(Math.random() * 100) + 1);
     }
-    console.log(newArray);
-    // container.innerHTML = `${newArray}`;
     i++;
+    console.log(newArray);
+    container.innerHTML += `<div>${newArray}</div>`;
 }
 
 
